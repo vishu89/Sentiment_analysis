@@ -56,3 +56,4 @@ pred_trans = model2.predict(test_trans)
 
 final_result = pd.DataFrame({'id':testDF['id'],'label':pred_vect})
 final_result.to_csv('output.csv',index=False)
+
